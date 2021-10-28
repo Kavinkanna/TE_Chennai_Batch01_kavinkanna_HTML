@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+                <td><br>
+                    <div>
+                        <label for="name">&nbsp;Name:</label>
+                        <input type="text" name="name" id="name" required placeholder="at least 3 characters" />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="dept">&nbsp;Department:</label>
+                        <input type="text" name="dept" id="dept" required placeholder="Must" />
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pwd">&nbsp;Password:</label>
+                        <input type="password" name="pwd" id="pwd" required placeholder="********" />*Must have one
+                        uppercase and a lower case&nbsp;
+                    </div>
+                    <br>
+                    <div>
+                        <label for="gender">&nbsp;Gender:</label>
+                        <input type="radio" name="gender" id="gender" required value="Male"/>Male
+                        <input type="radio" name="gender" id="gender" required value="Female"/>Female
+                    </div>
+                    <br>
+                    <div>
+                        <label for="skill">&nbsp;Your Skills:</label>
+                        <input type="checkbox" name="skill" id="skill" value="HTML"/>HTML
+                        <input type="checkbox" name="skill" id="skill" value="CSS"/>CSS
+                        <input type="checkbox" name="skill" id="skill" value="PHP"/>PHP
+                        <input type="checkbox" name="skill" id="skill" value="JAVA"/>JAVA
+                        <input type="checkbox" name="skill" id="skill" value="RUBY"/>RUBY
+                    </div>
+                    <br>
+                    <div>
+                        <label for="status">&nbsp;Marital Status:</label>
+                        <select name="status" id="status">
+                            <option value="Yes" selected>Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>&nbsp;
+                        <textarea name="texts" id="texts" cols="50" rows="5"></textarea>
+                    </div>
+                    <br>
+                    <div>&nbsp;
+                        <input type="submit" value="Submit">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

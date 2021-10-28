@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novell Services</title>
+</head>
+
+<body>
+    <form action="">
+        <table >
+            <tr align="center">
+                <td>
+                    <p>
+                        <font size="6">Novell Services Login</font>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><label for="user">Username:</label></td>
+                            <td><input type="text" name="user" id="user" required size="35"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pwd">Password:</label></td>
+                            <td><input type="password" name="pwd" id="pwd" required size="35"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City Of <br> Employment:</label></td>
+                            <td><input type="text" name="city" id="city" required size="35"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="server">Web server:</label></td>
+                            <td>
+                                <select name="server" id="server" required>
+                                    <option value="0" disabled selected> -Choose a server- </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="role">Please specify <br> your role:</label></td>
+                            <td><br>
+                                <input type="radio" name="role" id="role" required value="Admin"/>Admin<br>
+                                <input type="radio" name="role" id="role" required value="Engineer"/>Engineer<br>
+                                <input type="radio" name="role" id="role" required value="Manager"/>Manager<br>
+                                <input type="radio" name="role" id="role" required value="Guest"/>Guest
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="sign">Single Sign-on <br>to the following:</label></td>
+                            <td>
+                                <input type="checkbox" name="sign" id="sign" value="Mail"/>Mail
+                                <br><input type="checkbox" name="sign" id="sign" value="Payroll"/>Payroll
+                                <br><input type="checkbox" name="sign" id="sign" value="Self-service"/>Self-service
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <br>
+                                <input type="submit" value="Login"/>
+                                <input type="reset" value="Reset"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
